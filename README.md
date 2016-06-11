@@ -1,1 +1,1 @@
-"# Bootstrap-Pricing-Table" 
+# Bootstrap-Pricing-Table
