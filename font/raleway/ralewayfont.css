@@ -1,0 +1,216 @@
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Thin_gdi.eot');
+	src: url('Raleway-Thin_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Thin_gdi.woff') format('woff'),
+		url('Raleway-Thin_gdi.ttf') format('truetype'),
+		url('Raleway-Thin_gdi.svg#Raleway-Thin') format('svg');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-ThinItalic_gdi.eot');
+	src: url('Raleway-ThinItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-ThinItalic_gdi.woff') format('woff'),
+		url('Raleway-ThinItalic_gdi.ttf') format('truetype'),
+		url('Raleway-ThinItalic_gdi.svg#Raleway-ThinItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-ExtraLight_gdi.eot');
+	src: url('Raleway-ExtraLight_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-ExtraLight_gdi.woff') format('woff'),
+		url('Raleway-ExtraLight_gdi.ttf') format('truetype'),
+		url('Raleway-ExtraLight_gdi.svg#Raleway-ExtraLight') format('svg');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-ExtraLightItalic_gdi.eot');
+	src: url('Raleway-ExtraLightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-ExtraLightItalic_gdi.woff') format('woff'),
+		url('Raleway-ExtraLightItalic_gdi.ttf') format('truetype'),
+		url('Raleway-ExtraLightItalic_gdi.svg#Raleway-ExtraLightItalic') format('svg');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Light_gdi.eot');
+	src: url('Raleway-Light_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Light_gdi.woff') format('woff'),
+		url('Raleway-Light_gdi.ttf') format('truetype'),
+		url('Raleway-Light_gdi.svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-LightItalic_gdi.eot');
+	src: url('Raleway-LightItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-LightItalic_gdi.woff') format('woff'),
+		url('Raleway-LightItalic_gdi.ttf') format('truetype'),
+		url('Raleway-LightItalic_gdi.svg#Raleway-LightItalic') format('svg');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Regular_gdi.eot');
+	src: url('Raleway-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Regular_gdi.woff') format('woff'),
+		url('Raleway-Regular_gdi.ttf') format('truetype'),
+		url('Raleway-Regular_gdi.svg#Raleway-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Italic_gdi.eot');
+	src: url('Raleway-Italic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Italic_gdi.woff') format('woff'),
+		url('Raleway-Italic_gdi.ttf') format('truetype'),
+		url('Raleway-Italic_gdi.svg#Raleway-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Medium_gdi.eot');
+	src: url('Raleway-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Medium_gdi.woff') format('woff'),
+		url('Raleway-Medium_gdi.ttf') format('truetype'),
+		url('Raleway-Medium_gdi.svg#Raleway-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-MediumItalic_gdi.eot');
+	src: url('Raleway-MediumItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-MediumItalic_gdi.woff') format('woff'),
+		url('Raleway-MediumItalic_gdi.ttf') format('truetype'),
+		url('Raleway-MediumItalic_gdi.svg#Raleway-MediumItalic') format('svg');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-SemiBold_gdi.eot');
+	src: url('Raleway-SemiBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-SemiBold_gdi.woff') format('woff'),
+		url('Raleway-SemiBold_gdi.ttf') format('truetype'),
+		url('Raleway-SemiBold_gdi.svg#Raleway-SemiBold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-SemiBoldItalic_gdi.eot');
+	src: url('Raleway-SemiBoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-SemiBoldItalic_gdi.woff') format('woff'),
+		url('Raleway-SemiBoldItalic_gdi.ttf') format('truetype'),
+		url('Raleway-SemiBoldItalic_gdi.svg#Raleway-SemiBoldItalic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Bold_gdi.eot');
+	src: url('Raleway-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Bold_gdi.woff') format('woff'),
+		url('Raleway-Bold_gdi.ttf') format('truetype'),
+		url('Raleway-Bold_gdi.svg#Raleway-Bold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-BoldItalic_gdi.eot');
+	src: url('Raleway-BoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-BoldItalic_gdi.woff') format('woff'),
+		url('Raleway-BoldItalic_gdi.ttf') format('truetype'),
+		url('Raleway-BoldItalic_gdi.svg#Raleway-BoldItalic') format('svg');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-ExtraBold_gdi.eot');
+	src: url('Raleway-ExtraBold_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-ExtraBold_gdi.woff') format('woff'),
+		url('Raleway-ExtraBold_gdi.ttf') format('truetype'),
+		url('Raleway-ExtraBold_gdi.svg#Raleway-ExtraBold') format('svg');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-ExtraBoldItalic_gdi.eot');
+	src: url('Raleway-ExtraBoldItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-ExtraBoldItalic_gdi.woff') format('woff'),
+		url('Raleway-ExtraBoldItalic_gdi.ttf') format('truetype'),
+		url('Raleway-ExtraBoldItalic_gdi.svg#Raleway-ExtraBoldItalic') format('svg');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-Black_gdi.eot');
+	src: url('Raleway-Black_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-Black_gdi.woff') format('woff'),
+		url('Raleway-Black_gdi.ttf') format('truetype'),
+		url('Raleway-Black_gdi.svg#Raleway-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
+@font-face {
+	font-family:'raleway';
+	src: url('Raleway-BlackItalic_gdi.eot');
+	src: url('Raleway-BlackItalic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('Raleway-BlackItalic_gdi.woff') format('woff'),
+		url('Raleway-BlackItalic_gdi.ttf') format('truetype'),
+		url('Raleway-BlackItalic_gdi.svg#Raleway-BlackItalic') format('svg');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	unicode-range: U+0020-25CA;
+}

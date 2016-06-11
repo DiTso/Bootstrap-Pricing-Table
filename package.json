@@ -1,0 +1,17 @@
+{
+  "name": "bs3-pricing-table",
+  "version": "1.0.0",
+  "description": "Pricing table for bootstrap 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marinski",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-bootstrap-checkbox": "^0.3.6",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.2.0"
+  }
+}

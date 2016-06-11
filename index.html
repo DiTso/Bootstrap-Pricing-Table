@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Libs -->
+    <link rel="stylesheet" href="node_modules/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="font/raleway/Raleway-Regular_gdi.ttf" type="text/css">
+    <link rel="stylesheet" href="http://www.clientric.bg/templates/clientrichotel/css/editor.css">
+    <style>
+      body {
+        font-family: Raleway;
+      }
+      .first .item-list {
+        text-align: left;
+      }
+      .price label h5 {
+        margin-top: 2px;
+      }
+      .plan:not(.first) .checkbox-success input[type="checkbox"]:checked + label::before,
+      .plan:not(.first) .checkbox-success input[type="radio"]:checked + label::before {
+        margin-top: -3px;
+      }
+      .plan.first .checkbox-success input[type="checkbox"]:checked + label::before,
+      .plan.first .checkbox-success input[type="radio"]:checked + label::before {
+        margin-top: 3px;
+      }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+        
+            <p class="text-center">За да отговорим на нуждите им, Clientric поема голяма част от разходите по разработката на 3-те интерфейса, като клиента заплаща услугите на символични месечни вноски. Тук можете да разгледате предлаганите <strong>пакети Basic</strong>, <strong>Silver</strong> и <strong>Gold</strong> за WAW услуга, която ви предоставя дигитална идентичност изключително достъпно.</p>
+            
+            <div class="pricing-tables attached">
+              <h2 id="attached-narrow" class="text-center">
+              <img class="img-responsive" id="waw-above-table" src="http://www.clientric.bg/templates/clientrichotel/images/waw/logo-wide.png" alt="Изработка на уебсайт, мобилно приложение, Wifi портал" width="330">
+              </h2>
+              <div class="row">
+                  <div class="col-sm-3 col-md-3 ">
+                      <div class="plan second">
+                          <div class="head">
+                              <h2><strong>Basic</strong></h2>
+                          </div>
+                          <ul class="item-list">
+                            <li>адаптивен дизайн</li>
+                            <li>информативен</li>
+                            <li>единен CMS</li>
+                            <li>Facebook integration</li>
+                          </ul>
+                          <div class="price">
+                            <div class="checkbox checkbox-success">
+                              <input class="package selected-input" type="checkbox" id="bbPack" value="100">
+                              <label for="bbPack">
+                                  <h5><strong>BB пакет</strong></h5>
+                              </label>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3 ">
+
+                      <div class="plan recommended">
+                          <div class="head">
+                              <h2><strong>Silver</strong></h2>
+                          </div>
+                          <ul class="item-list">
+                            <li><strong>Всичко от BB пакет +</strong></li>
+                            <li>резервационен модул</li>
+                            <li>промоции</li>
+                            <li>Loyality program</li>
+                            <li>Push Notifications</li>
+                            <li>Facebook Login</li>
+                            <li>Google 360 &deg; integration</li>
+                            <li>Menu &amp; delivery service</li>
+                            <li>Adv module</li>
+                          </ul>
+                          <div class="price">
+                              <div class="checkbox checkbox-success">
+                                <input class="package selected-input" type="checkbox" id="hbPack" value="200">
+                                <label for="hbPack">
+                                    <h5><strong>HB пакет</strong></h5>
+                                </label>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3 col-md-3 ">
+
+                      <div class="plan last">
+                          <div class="head">
+                              <h2><strong>Gold</strong></h2>
+                          </div>
+                          <ul class="item-list">
+                            <li><strong>Всичко от HB пакет +</strong></li>
+                            <li>Self Service Integration</li>
+                            <li>Live chat</li>
+                            <li>E-shop</li>
+                            <li>3-rd part integration</li>
+                            <li>API</li>
+                          </ul>
+                          <div class="price">
+                            <div class="checkbox checkbox-success">
+                              <input class="package selected-input" type="checkbox" id="fbPack" value="300">
+                              <label for="fbPack">
+                              <h5><strong>All inclusive пакет</strong></h5>
+                              </label>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-3 col-md-3">
+                      <div class="plan first">
+                          <div class="head">
+                              <h2><strong>Модули</strong></h2>
+                          </div>
+                          <ul class="item-list">
+                            <li>
+                              <div class="checkbox checkbox-success">
+                                <input class="selected-input" type="checkbox" id="booking-engine" value="100">
+                                <label for="booking-engine">
+                                    Booking Engine
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="checkbox checkbox-success">
+                                <input class="selected-input" type="checkbox" id="channel-manager" value="200">
+                                <label for="channel-manager">
+                                   Channel Manager
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="checkbox checkbox-success">
+                                <input class="selected-input" type="checkbox" id="shopping-tool" value="300">
+                                <label for="shopping-tool">
+                                  Shopping Tool
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="checkbox checkbox-success">
+                                <input class="selected-input" type="checkbox" id="parking-software" value="400">
+                                <label for="parking-software">
+                                  Parking Software
+                                </label>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="checkbox  checkbox-success">
+                                <input type="checkbox" id="hotel-tv">
+                                <label for="hotel-tv">
+                                    Hotel TV Signage
+                                  <div id="screen-details" class="form-group" style="display:none;">
+                                    <br>
+
+                                    <div class="form-group">                      
+                                      <select name="screen-details" id="selectScreenSize" class="form-control" required="required">
+                                        <option value="13">Размер</option>
+                                        <option value="15">15"</option>
+                                        <option value="17">17"</option>
+                                        <option value="21">21"</option>
+                                      </select>
+                                    </div>
+                                    <div class="form-group">
+                                      <select name="screen-details" id="selectScreenQty" class="form-control" required="required">
+                                        <option value="1">Количество</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                </label>
+                              </div>
+                            </li>
+                          </ul>
+                          <div class="price">
+                              <label for="totalValue"><h5><strong>Калкулатор</strong></h5> <input type="text" disabled="" class="form-control" id="totalValue" value="" /></label>
+                              <input type="submit" class="btn btn-default btn-lg" style="background: #8dcf2d;color:#fff;border-radius:1px;" value="Изпрати" />
+                          </div>
+                      </div>
+                  </div>
+              </div><!-- row-->
+            </div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
